@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+.clicker-image {
+    width: 200px;
+    cursor: pointer;
+    margin: 20px 0;
+    transition: transform 0.1s;
+}
+
+.clicker-image:active {
+    transform: scale(0.9);
+}
+
+.upgrades button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
