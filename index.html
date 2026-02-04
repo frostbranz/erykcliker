@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tako Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tako Clicker</h1>
+        <div class="counter">
+            Cwele: <span id="cwelCount">0</span>
+        </div>
+        <img id="tako" src="tako.png" alt="Tako" class="clicker-image">
+        <div class="upgrades">
+            <button id="clickUpgrade">Upgrade klik (+1) - Cena: <span id="clickUpgradePrice">100</span> cwel</button>
+            <button id="autoUpgrade">Automatyczny (+1/sek) - Cena: <span id="autoUpgradePrice">250</span> cwel</button>
+        </div>
+    </div>
+
+    <audio id="clickSound" src="click.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
